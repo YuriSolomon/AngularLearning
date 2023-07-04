@@ -7,6 +7,7 @@ import { Recipe } from '../recipe.model';
   templateUrl: './recipe-detail.component.html',
   styleUrls: ['./recipe-detail.component.scss']
 })
+
 export class RecipeDetailComponent {
   @Input() recipe: Recipe;
 }

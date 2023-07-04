@@ -6,6 +6,7 @@ import { Recipe } from './recipe.model';
   templateUrl: './recipes.component.html',
   styleUrls: ['./recipes.component.scss']
 })
+
 export class RecipesComponent {
   selectedRecipe: Recipe;
 }
